@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: eea98e4466ad6994aa3ae1c716b59781
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8327974561184422108
+    second: 16x16 Grim Reaper_0
+  - first:
+      213: 259952077011186065
+    second: 16x16 Grim Reaper_1
+  - first:
+      213: 4040549363147358347
+    second: 16x16 Grim Reaper_2
+  - first:
+      213: -8573527563411269634
+    second: 16x16 Grim Reaper_3
+  - first:
+      213: -2086236170348788934
+    second: 16x16 Grim Reaper_4
+  - first:
+      213: -2557487945686539879
+    second: 16x16 Grim Reaper_5
+  - first:
+      213: 6703148578809086988
+    second: 16x16 Grim Reaper_6
+  - first:
+      213: 4468537845805911228
+    second: 16x16 Grim Reaper_7
+  - first:
+      213: -7164060819383174232
+    second: 16x16 Grim Reaper_8
+  - first:
+      213: -1783295502212945528
+    second: 16x16 Grim Reaper_9
+  - first:
+      213: -8519133053479236851
+    second: 16x16 Grim Reaper_10
+  - first:
+      213: 7015634908560826532
+    second: 16x16 Grim Reaper_11
+  - first:
+      213: -4242636238228876316
+    second: 16x16 Grim Reaper_12
+  - first:
+      213: -3637990469532750134
+    second: 16x16 Grim Reaper_13
+  - first:
+      213: 4457190582135895709
+    second: 16x16 Grim Reaper_14
+  - first:
+      213: -511055571018927358
+    second: 16x16 Grim Reaper_15
+  - first:
+      213: -2999201341189912532
+    second: 16x16 Grim Reaper_16
+  - first:
+      213: 8348655298552850979
+    second: 16x16 Grim Reaper_17
+  - first:
+      213: 7341815296650593383
+    second: 16x16 Grim Reaper_18
+  - first:
+      213: -8160614333690347422
+    second: 16x16 Grim Reaper_19
+  - first:
+      213: -2679590362879430278
+    second: 16x16 Grim Reaper_20
+  - first:
+      213: -4677776559758859975
+    second: 16x16 Grim Reaper_21
+  - first:
+      213: -5922230099291388705
+    second: 16x16 Grim Reaper_22
+  - first:
+      213: -8989336127497315186
+    second: 16x16 Grim Reaper_23
+  - first:
+      213: 1542617791331503512
+    second: 16x16 Grim Reaper_24
+  - first:
+      213: -7517396981685400716
+    second: 16x16 Grim Reaper_25
+  - first:
+      213: 5033915971017906745
+    second: 16x16 Grim Reaper_26
+  - first:
+      213: 4975640581252852176
+    second: 16x16 Grim Reaper_27
+  - first:
+      213: 688982083340715926
+    second: 16x16 Grim Reaper_28
+  - first:
+      213: -1615445665231946486
+    second: 16x16 Grim Reaper_29
+  - first:
+      213: 1476570674329935440
+    second: 16x16 Grim Reaper_30
+  - first:
+      213: -5988341611072900275
+    second: 16x16 Grim Reaper_31
+  - first:
+      213: -2847923833266036672
+    second: 16x16 Grim Reaper_32
+  - first:
+      213: 6996551263145291953
+    second: 16x16 Grim Reaper_33
+  - first:
+      213: -8959126577345196827
+    second: 16x16 Grim Reaper_34
+  - first:
+      213: 6717827770571176752
+    second: 16x16 Grim Reaper_35
+  - first:
+      213: 6153593180569252553
+    second: 16x16 Grim Reaper_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 273
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd813e96db8e29370800000000000000
+      internalID: 8327974561184422108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 273
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19170e869098b9300800000000000000
+      internalID: 259952077011186065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 270
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8044dfec3ae21830800000000000000
+      internalID: 4040549363147358347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 271
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7d9d60b16b40980800000000000000
+      internalID: -8573527563411269634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 273
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a330ac4a1433c03e0800000000000000
+      internalID: -2086236170348788934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991a208734af18cd0800000000000000
+      internalID: -2557487945686539879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 208
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04849c1e1e560d50800000000000000
+      internalID: 6703148578809086988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 213
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc86a4de7f630e30800000000000000
+      internalID: 4468537845805911228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 210
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab3f5f34a4249c90800000000000000
+      internalID: -7164060819383174232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889ab0560367047e0800000000000000
+      internalID: -1783295502212945528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 81
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bc419cf95f5c980800000000000000
+      internalID: -8519133053479236851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0299667ca8c5160800000000000000
+      internalID: 7015634908560826532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 103
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e31b2dd1d02f15c0800000000000000
+      internalID: -4242636238228876316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace6e3f51f2438dc0800000000000000
+      internalID: -3637990469532750134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 112
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d963d60283f1bdd30800000000000000
+      internalID: 4457190582135895709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 84
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203bee47aad58e8f0800000000000000
+      internalID: -511055571018927358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2800884542b066d0800000000000000
+      internalID: -2999201341189912532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aec6ec2c16cd370800000000000000
+      internalID: 8348655298552850979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 94
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764436b1d1e53e560800000000000000
+      internalID: 7341815296650593383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2600d63108cafbe80800000000000000
+      internalID: -8160614333690347422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 87
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71f20513ce20dad0800000000000000
+      internalID: -2679590362879430278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931ace8b003351fb0800000000000000
+      internalID: -4677776559758859975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 90
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd44c9d1a1300dda0800000000000000
+      internalID: -5922230099291388705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cdfe96b667f3380800000000000000
+      internalID: -8989336127497315186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_24
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 92
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d038445ba786510800000000000000
+      internalID: 1542617791331503512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_25
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 96
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b4c072647dca790800000000000000
+      internalID: -7517396981685400716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_26
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 94
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a10b1a7ef0cd540800000000000000
+      internalID: 5033915971017906745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_27
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9289f1fb60d0540800000000000000
+      internalID: 4975640581252852176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_28
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697c12eed81cf8900800000000000000
+      internalID: 688982083340715926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 91
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0db7e9f9b8c499e0800000000000000
+      internalID: -1615445665231946486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ed1318435dd7410800000000000000
+      internalID: 1476570674329935440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 18
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d433f46480325eca0800000000000000
+      internalID: -5988341611072900275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 17
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0402fc2dc542a78d0800000000000000
+      internalID: -2847923833266036672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_33
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 19
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0f594fd4eb81160800000000000000
+      internalID: 6996551263145291953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_34
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 18
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec049b68d9caa380800000000000000
+      internalID: -8959126577345196827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 17
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b3627c3c48a3d50800000000000000
+      internalID: 6717827770571176752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Grim Reaper_36
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 18
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2b8140564f56550800000000000000
+      internalID: 6153593180569252553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      16x16 Grim Reaper_0: 8327974561184422108
+      16x16 Grim Reaper_1: 259952077011186065
+      16x16 Grim Reaper_10: -8519133053479236851
+      16x16 Grim Reaper_11: 7015634908560826532
+      16x16 Grim Reaper_12: -4242636238228876316
+      16x16 Grim Reaper_13: -3637990469532750134
+      16x16 Grim Reaper_14: 4457190582135895709
+      16x16 Grim Reaper_15: -511055571018927358
+      16x16 Grim Reaper_16: -2999201341189912532
+      16x16 Grim Reaper_17: 8348655298552850979
+      16x16 Grim Reaper_18: 7341815296650593383
+      16x16 Grim Reaper_19: -8160614333690347422
+      16x16 Grim Reaper_2: 4040549363147358347
+      16x16 Grim Reaper_20: -2679590362879430278
+      16x16 Grim Reaper_21: -4677776559758859975
+      16x16 Grim Reaper_22: -5922230099291388705
+      16x16 Grim Reaper_23: -8989336127497315186
+      16x16 Grim Reaper_24: 1542617791331503512
+      16x16 Grim Reaper_25: -7517396981685400716
+      16x16 Grim Reaper_26: 5033915971017906745
+      16x16 Grim Reaper_27: 4975640581252852176
+      16x16 Grim Reaper_28: 688982083340715926
+      16x16 Grim Reaper_29: -1615445665231946486
+      16x16 Grim Reaper_3: -8573527563411269634
+      16x16 Grim Reaper_30: 1476570674329935440
+      16x16 Grim Reaper_31: -5988341611072900275
+      16x16 Grim Reaper_32: -2847923833266036672
+      16x16 Grim Reaper_33: 6996551263145291953
+      16x16 Grim Reaper_34: -8959126577345196827
+      16x16 Grim Reaper_35: 6717827770571176752
+      16x16 Grim Reaper_36: 6153593180569252553
+      16x16 Grim Reaper_4: -2086236170348788934
+      16x16 Grim Reaper_5: -2557487945686539879
+      16x16 Grim Reaper_6: 6703148578809086988
+      16x16 Grim Reaper_7: 4468537845805911228
+      16x16 Grim Reaper_8: -7164060819383174232
+      16x16 Grim Reaper_9: -1783295502212945528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
