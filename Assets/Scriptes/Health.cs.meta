@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 0c6072ade4bb97d43995798844fa999e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - xpPrefab: {fileID: 6848054017627547062, guid: ddf79469d4fcb3545840b9e28133ccd9, type: 3}
+  - redFillImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

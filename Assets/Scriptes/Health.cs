@@ -5,8 +5,12 @@ public class Health : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
+    public GameObject xpPrefab;
 
-    // On ne glisse que l'image rouge ici
+    [Range(0f, 1f)]
+    public float xpDropRate = 0.5f;
+
+    //l'image de la barre rouge dedans
     public Image redFillImage;
 
     void Start()
@@ -14,15 +18,12 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
         UpdateUI();
     }
+
     void Update()
     {
-        // --- PETIT TEST ---
-        // Appuie sur K en jeu pour perdre 10 PV
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            TakeDamage(10);
-        }
+
     }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -39,25 +40,25 @@ public class Health : MonoBehaviour
     {
         if (redFillImage != null)
         {
-            // Calcul du remplissage entre 0 et 1
+            // Calcul du remplissage entre 0 et 1 de la partie rouge de la barre de vie
             redFillImage.fillAmount = (float)currentHealth / maxHealth;
         }
     }
 
     void Die()
     {
-        Debug.Log(gameObject.name + " est mort !");
-
-        // Si c'est un ennemi, on le fait disparaître
         if (gameObject.CompareTag("Enemy"))
         {
-            // Optionnel : Tu peux spawn de l'XP ici plus tard
+            // L'XP ne tombe que si le calcul aléatoire est inférieur au taux de drop
+            if (xpPrefab != null && Random.value <= xpDropRate)
+            {
+                Instantiate(xpPrefab, transform.position, Quaternion.identity);
+            }
             Destroy(gameObject);
-            
         }
         else if (gameObject.CompareTag("Player"))
         {
-            // Ici on mettra ton écran de Game Over
+            // Ici on mettra l'écran de Game Over
             Debug.Log("GAME OVER");
         }
     }

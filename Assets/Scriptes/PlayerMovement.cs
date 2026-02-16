@@ -20,16 +20,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // 1. Récupère les directions
+        //Récupère les directions
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement = movement.normalized;
 
-        // 2. Gestion de l'animation (si on bouge en X ou en Y)
+        //Gestion de l'animation (si on bouge en X ou en Y)
         bool isMoving = movement.magnitude > 0;
         anim.SetBool("isMoving", isMoving);
-
-        // 3. Gestion du Flip (regarder à gauche ou à droite)
         if (movement.x > 0)
         {
             spriteRenderer.flipX = false; // Regarde à droite (normal)

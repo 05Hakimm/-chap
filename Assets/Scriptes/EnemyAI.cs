@@ -26,14 +26,13 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        // Si on est en train de subir un recul, on ne fait pas l'IA de mouvement
         if (isKnockedBack)
         {
             knockbackTimer -= Time.deltaTime;
             if (knockbackTimer <= 0)
             {
                 isKnockedBack = false;
-                rb.linearVelocity = Vector2.zero; // On arrête le mouvement de recul
+                rb.linearVelocity = Vector2.zero; //On arrête le mouvement de recul
             }
             return;
         }
@@ -75,7 +74,7 @@ public class EnemyAI : MonoBehaviour
         knockbackTimer = knockbackDuration;
 
         // On applique la force de recul
-        rb.linearVelocity = Vector2.zero; // On reset la vitesse actuelle
+        rb.linearVelocity = Vector2.zero; //On reset la vitesse actuelle
         rb.AddForce(force, ForceMode2D.Impulse);
     }
 

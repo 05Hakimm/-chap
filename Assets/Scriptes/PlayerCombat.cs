@@ -13,7 +13,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public int attackDamage = 40;
-    public float knockbackForce = 5f; // Puissance du recul (à augmenter via upgrades)
+    public float knockbackForce = 5f; 
     public LayerMask enemyLayers;
 
     private float nextAttackTime = 0f;
