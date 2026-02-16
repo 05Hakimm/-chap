@@ -48,15 +48,17 @@ public class Health : MonoBehaviour
     {
         Debug.Log(gameObject.name + " est mort !");
 
-        // Si l'objet qui a ce script est un Ennemi, on le supprime du jeu
+        // Si c'est un ennemi, on le fait disparaître
         if (gameObject.CompareTag("Enemy"))
         {
+            // Optionnel : Tu peux spawn de l'XP ici plus tard
             Destroy(gameObject);
+            
         }
-        else
+        else if (gameObject.CompareTag("Player"))
         {
-            // Si c'est le joueur, on peut faire autre chose (Game Over, etc.)
-            Debug.Log("Le joueur a perdu !");
+            // Ici on mettra ton écran de Game Over
+            Debug.Log("GAME OVER");
         }
     }
 }

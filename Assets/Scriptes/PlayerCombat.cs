@@ -1,19 +1,26 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Paramètres d'Attaque")]
     public Animator anim;
-    public float attackRate = 3f;    // Temps entre chaque salve
-    public int attackCount = 1;      // Nombre de coups/projectiles par salve 
-    public float delayBetweenShots = 0.2f; // Petit délai entre 2 coups d'une même salve
+    public float attackRate = 3f;
+    public int attackCount = 1;
+    public float delayBetweenShots = 0.2f;
+
+    [Header("Stats de Combat")]
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public int attackDamage = 40;
+    public float knockbackForce = 5f; // Puissance du recul (à augmenter via upgrades)
+    public LayerMask enemyLayers;
 
     private float nextAttackTime = 0f;
     private int comboStep = 0;
 
     void Update()
     {
-        // On attaque automatiquement selon le cooldown
         if (Time.time >= nextAttackTime)
         {
             StartCoroutine(PerformAttackSequence());
@@ -21,37 +28,44 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // Ce bloc gère la salve d'attaques (1, 2, 3 coups ou plus)
-    System.Collections.IEnumerator PerformAttackSequence()
+    IEnumerator PerformAttackSequence()
     {
         for (int i = 0; i < attackCount; i++)
         {
             ExecuteOneAttack();
-
-            // On attend un tout petit peu avant le prochain coup de la salve
             yield return new WaitForSeconds(delayBetweenShots);
         }
     }
 
     void ExecuteOneAttack()
     {
-        //Animation de corps à corps (ton épée)
         anim.SetInteger("AttackIndex", comboStep);
         anim.SetTrigger("Attack");
-
-        // Alterne entre l'animation 1 et 2
         comboStep = (comboStep == 0) ? 1 : 0;
 
-        // ici on ajoutera les boules de feu plus tard (et le reste)
-        LaunchFireball();
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        Debug.Log("Attaque exécutée !");
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            // 1. Dégâts
+            Health enemyHealth = enemy.GetComponent<Health>();
+            if (enemyHealth != null) enemyHealth.TakeDamage(attackDamage);
+
+            // 2. Recul (Knockback)
+            EnemyAI enemyAI = enemy.GetComponent<EnemyAI>();
+            if (enemyAI != null)
+            {
+                // On calcule la direction du recul (du joueur vers l'ennemi)
+                Vector2 knockbackDirection = (enemy.transform.position - transform.position).normalized;
+                enemyAI.ApplyKnockback(knockbackDirection * knockbackForce);
+            }
+        }
     }
 
-    void LaunchFireball()
+    void OnDrawGizmosSelected()
     {
-        // Pour l'instant c'est vide, on y mettra le code des projectiles
-        // quand tu auras créé un prefab de boule de feu.
-        // et on fera d'autres fonctions pour d'autres pouvoirs.
+        if (attackPoint == null) return;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
