@@ -12912,6 +12912,9 @@ MonoBehaviour:
   currentLevel: 1
   currentXP: 0
   xpToNextLevel: 100
+  xpFillImage: {fileID: 2078553118}
+  levelText: {fileID: 0}
+  upgradePanel: {fileID: 0}
 --- !u!1 &1736255987
 GameObject:
   m_ObjectHideFlags: 0
@@ -13178,6 +13181,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2078553118 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4048840437167462251, guid: 9357bbcf82980a24baa822b6111caca8, type: 3}
+  m_PrefabInstance: {fileID: 2071676505919772375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2078653146
 GameObject:
   m_ObjectHideFlags: 0
@@ -13360,6 +13374,22 @@ PrefabInstance:
     - target: {fileID: 309814552340637825, guid: 9357bbcf82980a24baa822b6111caca8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430237246442040645, guid: 9357bbcf82980a24baa822b6111caca8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 883
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430237246442040645, guid: 9357bbcf82980a24baa822b6111caca8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430237246442040645, guid: 9357bbcf82980a24baa822b6111caca8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430237246442040645, guid: 9357bbcf82980a24baa822b6111caca8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 223.5
       objectReference: {fileID: 0}
     - target: {fileID: 8644241387254356253, guid: 9357bbcf82980a24baa822b6111caca8, type: 3}
       propertyPath: m_Name

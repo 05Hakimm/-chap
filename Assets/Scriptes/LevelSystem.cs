@@ -1,24 +1,40 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelSystem : MonoBehaviour
 {
     [Header("Statistiques d'XP")]
     public int currentLevel = 1;
     public int currentXP = 0;
-    public int xpToNextLevel = 100; // Premier niveau à 100 XP (environ 2-3 ennemis pour gamedesign)
+    public int xpToNextLevel = 100;
 
-    // On ajoutera une barre d'XP UI plus tard
+    [Header("Interface")]
+    public Image xpFillImage; // L'image de remplissage
+    public Text levelText;    // Le texte du niveau
+    public GameObject upgradePanel; // Le menu de choix d'améliorations
+
+    void Start()
+    {
+
+        // On cache le menu de niveau supérieur au début
+        if (upgradePanel != null)
+        {
+            upgradePanel.SetActive(false);
+        }
+
+        UpdateUI();
+    }
 
     public void AddExperience(int amount)
     {
         currentXP += amount;
 
-        Debug.Log("XP gagnée ! Total : " + currentXP + "/" + xpToNextLevel);
-
         if (currentXP >= xpToNextLevel)
         {
             LevelUp();
         }
+
+        UpdateUI();
     }
 
     void LevelUp()
@@ -26,12 +42,47 @@ public class LevelSystem : MonoBehaviour
         currentLevel++;
         currentXP -= xpToNextLevel;
 
-        // Augmentation de la difficulté du prochain niveau (+20%)
+        // Augmentation de l'XP requise pour le niveau suivant
         xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * 1.2f);
 
-        Debug.Log("NIVEAU SUPÉRIEUR ! Niveau actuel : " + currentLevel);
+        Debug.Log("NIVEAU SUPÉRIEUR !");
 
-        // ICI : On lancera plus tard le menu de choix des 4 améliorations
-        // Time.timeScale = 0f; // Pour mettre le jeu en pause par exemple
+        // Ouvre le menu et met le jeu en pause
+        OpenUpgradeMenu();
+
+        UpdateUI();
+    }
+
+    void OpenUpgradeMenu()
+    {
+        if (upgradePanel != null)
+        {
+            upgradePanel.SetActive(true);
+            Time.timeScale = 0f; // Pause le jeu
+        }
+    }
+
+    // Cette fonction sera appelée par les boutons de ton menu d'amélioration
+    public void CloseUpgradeMenu()
+    {
+        if (upgradePanel != null)
+        {
+            upgradePanel.SetActive(false);
+            Time.timeScale = 1f; // Reprend le jeu
+        }
+    }
+
+    void UpdateUI()
+    {
+        if (xpFillImage != null)
+        {
+            // Calcul du remplissage
+            xpFillImage.fillAmount = (float)currentXP / xpToNextLevel;
+        }
+
+        if (levelText != null)
+        {
+            levelText.text = "NIVEAU " + currentLevel;
+        }
     }
 }
